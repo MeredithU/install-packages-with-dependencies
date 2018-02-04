@@ -5,7 +5,8 @@ Given a list of packages with dependencies, list the order of installation so th
 ## Getting Started
 
 ```
-git clone
+git clone https://github.com/MeredithU/install-packages-with-dependencies.git
+cd install-packages-with-dependencies
 ```
 
 If you use [yarn](https://yarnpkg.com):
