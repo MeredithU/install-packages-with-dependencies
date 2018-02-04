@@ -1,0 +1,20 @@
+{
+  "name": "install-packages-with-dependencies",
+  "version": "1.0.0",
+  "description": "Given a list of packages with dependencies, list the order of installation so there isn't a fail due to a missing dependency.",
+  "main": "index.js",
+  "author": "Meredith Underell",
+  "license": "ISC",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^21.2.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
